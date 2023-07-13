@@ -1,0 +1,61 @@
+/*Rearrange the header*/
+nav{
+    display: none;
+}
+.signin_btn{
+    display: none;
+}
+#nav_icon_div{
+    display: block;
+}
+header{
+    padding: 10px 3%;
+}
+
+/*Vertual columns*/
+.col-t-1 {width: 8.33%;}
+.col-t-2 {width: 16.66%;}
+.col-t-3 {width: 25%;}
+.col-t-4 {width: 33.33%;}
+.col-t-5 {width: 41.66%;}
+.col-t-6 {width: 50%;}
+.col-t-7 {width: 58.33%;}
+.col-t-8 {width: 66.66%;}
+.col-t-9 {width: 75%;}
+.col-t-10 {width: 83.33%;}
+.col-t-11 {width: 91.66%;}
+.col-t-12 {width: 100%;}
+[class*="col-t-"] {
+    float: left;
+    padding: 15px;
+}
+
+/*Main section design*/
+.main_txt button{
+    font-size: 20px;
+}
+.section1{
+    padding-bottom: 5vh;
+    margin-bottom: 0;
+}
+.section1 .cont p{
+    font-size: 1.3rem;
+}
+.section1 .cont h2{
+    font-size: 3.5rem;
+}
+.form_div{
+    padding-bottom: 2.7rem;
+}
+
+/*footer styles*/
+footer p{
+    font-size: 1rem;
+}
+.socialmedia_logo{
+    width: 40px;
+    height: auto;
+}
+#footer_logo{
+    width: 200px;
+}

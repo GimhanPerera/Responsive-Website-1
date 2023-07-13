@@ -1,0 +1,39 @@
+.col-m-1 {width: 8.33%;}
+.col-m-12 {width: 16.66%;}
+.col-m-13 {width: 25%;}
+.col-m-14 {width: 33.33%;}
+.col-m-15 {width: 41.66%;}
+.col-m-16 {width: 50%;}
+.col-m-17 {width: 58.33%;}
+.col-m-18 {width: 66.66%;}
+.col-m-19 {width: 75%;}
+.col-m-10 {width: 83.33%;}
+.col-m-11 {width: 91.66%;}
+.col-m-12 {width: 100%;}
+
+[class*="col-m-"] {
+    float: left;
+    padding: 15px;
+}
+.main_txt{
+    padding: 2rem;
+}
+
+.section2 .game1 h2{/*Game titles*/
+    font-size: 60px;
+}
+.form_div{/*White form div*/
+    
+    width: 300px;
+}
+
+/*footer design*/
+footer h5{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+  footer p{
+    font-size: 20px;
+    padding-left: 3px;
+    margin-bottom: 5px;
+}

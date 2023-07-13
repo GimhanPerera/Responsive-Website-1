@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signInStyle.css">
+    <link rel="stylesheet" href="signInStyle_tablet.css" media="(max-width: 1023px)">
+    <link rel="stylesheet" href="signInStyle_mobile.css" media="(max-width: 767px)">
+    <link rel="stylesheet" href="signInStyle_smallmobile.css" media="(max-width: 480px)">
+    <title>Sign in</title>
+</head>
+<body>
+    <!--HEADER-->
+    <header>
+        <a href="home.html"><img class="logo" src="img/logo2.png" alt="logo"></a>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="Games.html">Games</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </nav>
+        <a href="signIn.html" class="signin_btn"><button class="btn_signin">Sign in</button></a>
+        <a href="#" id="nav_icon_div"><img class="nav_icon" src="img/nav_icon.png" alt="nav"></a>
+    </header>
+    <!--MAIN section-->
+    <div class="banner">
+        <div class="row">
+            <!--FORM-->
+            <div class="form_div">
+                <form id="login" method="get">
+                    <h1>Sign in</h1>
+                    <table>
+                        <tr>
+                            <td><label for="fname" class="lbl">Username</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" id="user_name" name="user_name" class="input_box"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="reg_sem" class="lbl">Password</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" id="pwd" name="pwd" class="input_box"></td>
+                        </tr>
+                    </table>
+                    <label class="container_checkbox">
+                        <input type="checkbox">
+                        <span class="checkmark">Show Password</span>
+                    </label>
+                    <div id="btn_col">
+                        <input type="button" id="signin_btn" value="Sign in">
+                    </div>
+                    <div id="form_botton_div">
+                        <p>Forgot <a href="#">Username/Password</a>?</p>
+                        <p>Don't have an account? <a href="#">Sign up</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div> 
+
+    <!--FOOTER section-->
+    <footer>
+        <div class="row">
+            <div class="col-3 f_item col-m-12">
+                <a href="home.html"><img class="logo" id="footer_logo" src="img/logo2.png" alt="logo"></a>
+            </div>
+            <div class="col-3 f_item col-m-12">
+                <div>
+                    <h5>Company</h5>
+                    <p>About us</p>
+                    <p>Our Services</p>
+                    <p>Privacy Policy</p>
+                </div>
+            </div>
+            <div class="col-3 f_item col-m-12">
+                <div>
+                    <h5>Get help</h5>
+                    <p>FAQ</p>
+                    <p>Our Services</p>
+                    <p>Privacy Policy</p>
+                </div>
+            </div>
+            <div class="col-3 f_item col-m-12">
+                <div>
+                    <h5 id="social_hTag">Social Media</h5>
+                    <div id="soTag">
+                        <a href="#"><img class="socialmedia_logo" src="img/fb_icon_white.png" alt="logo"></a>
+                        <a href="#"><img class="socialmedia_logo" src="img/insta_icon_white.png" alt="logo"></a>
+                        <a href="#"><img class="socialmedia_logo" src="img/yt_icon_white.png" alt="logo"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
